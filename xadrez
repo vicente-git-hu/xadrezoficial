@@ -1,4 +1,4 @@
-#Criado por Igor Vinicius e Antonio Vicente - Chess Challenge (Clube da Nénem)
+#Criado por Igor Vinicius e Vicente Neto - Chess Challenge (Clube da Nénem)
 #Bibliotecas Py Usadas: Chess
 #Motor IA Externo usado: StockFish
 
@@ -24,7 +24,7 @@ def display_board(board):
     print(" +----------------")
 
 def main():
-    stockfish_path = 'C:\\Users\\igorv\\Desktop\\PROJETOS PY\\stockfish\\stockfish-windows-x86-64-avx2.exe'
+    stockfish_path = 'C:\\Users\\osori\\Downloads\\stockfish-windows-x86-64\\stockfish\\stockfish-windows-x86-64-avx2.exe'
     engine = chess.engine.SimpleEngine.popen_uci(stockfish_path)
     engine.configure({"Skill Level": 20})
 
